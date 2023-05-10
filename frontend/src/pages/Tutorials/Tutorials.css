@@ -1,0 +1,93 @@
+.tutorials-container {
+  background: #d2dae2;
+  text-align: center;
+}
+
+.main-conatiner {
+  margin: auto;
+  width: 95%;
+}
+
+.tutorials-content-container {
+  width: 100%;
+  height: 85vh;
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  justify-content:space-evenly;
+  align-content: space-evenly;
+}
+
+.step-container{
+  height: 100px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px 15px;
+  height: 250px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content:space-evenly;
+  align-content: space-evenly;
+  box-shadow: 2px 2px 2px 2px #888888;
+}
+
+.heading-container{
+  display: flex;
+  padding-top: 30px;
+  font-family: "Raleway", sans-serif;
+  justify-content: center;
+}
+
+.tutorials-heading1 {
+  color: #007bff;
+  margin-right: 20px;
+  font-size: 55px;
+}
+
+.tutorials-heading2 {
+  color: black;
+  font-size: 55px;
+}
+
+.tutorials-content {
+  color: black;
+  font-size: 20px;
+  margin: auto;
+}
+
+.topic{
+  color: #007bff;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+#left-container {
+    position: relative; 
+    height: 90vh;
+    width: 100%;
+    display: block;
+    align-items: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#left-container::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(57, 56, 56, 0.3);
+}
+
+#right-container {
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-left: 20px;
+}

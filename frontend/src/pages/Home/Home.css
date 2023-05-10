@@ -1,0 +1,116 @@
+.home-heading {
+  padding: 0px;
+  margin: 0px;
+  font-size: 44px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  display: flex;
+}
+
+#head1 {
+  margin-right: 20px;
+  color: #007bff;
+}
+
+#text1 {
+  color: #007bff;
+  font-size: 50px;
+}
+
+.btn-section {
+  left: 38vw;
+  top: 90vh;
+}
+
+#start-btn,
+#tutorial-btn {
+  margin-right: 40px;
+  padding: 10px 40px;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+#about-btn {
+  font-size: 20px;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  background: none;
+}
+
+#about-btn {
+  position: relative;
+  left: 10%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#about-btn:hover {
+  font-weight: 650;
+  color: #007bff;
+}
+
+#left-text-container {
+  margin-left: 100px;
+  margin-top: 130px;
+  position: absolute;
+  display: inline;
+}
+
+#left-text-container h2 {
+  width: 500px;
+  line-height: 50px;
+}
+
+.text-container {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  display: block;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #d2dae2;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background: url("../../utils/images/yoga_pose1-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  background-color: #d2dae2;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 7%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.headlinks {
+  position: absolute;
+  top: 4%;
+  right: 10%;
+  display: flex;
+}
